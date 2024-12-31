@@ -27,26 +27,26 @@ VPS可以用阿里云、腾讯云，海外可以是HostVDS。
 apt update -y && apt install -y curl && apt install -y socat && apt install wget -y
 
 BBR加速
-
+```bash
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
-
+```
 宝塔安装
 
 Debian
-
+```bash
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh aapanel
-
+```
 Ubuntu
-
+```bash
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
-
+```
 Centos
-
+```bash
 yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel
-
+```
 首次进入宝塔面板会让安装组件，个人比较倾向于用apache。
 
-注意：php需要选择7.4版本！
+**注意：php需要选择7.4版本！**
 
 ## 5、安装Typecho
 
