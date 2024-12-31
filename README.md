@@ -3,7 +3,7 @@
 Typecho是一款PHP博客程序，相比于WordPress，Typecho显得更加的轻量级和简洁。现在越来越多的人倾向于用Typecho来搭建个人博客——众所周知，能跑WordPress的机器都不便宜。
 
 Typecho是一款国人团结打造的开源博客系统，和WordPress一样是PHP语言开发的。主打开源、轻量。
-​
+​![typecho](https://i-blog.csdnimg.cn/direct/1853a162e4954d6990eb1fa4c4ceb619.png)
 Typecho官网：[typecho.org](typecho.org)
 
 博客演示（Joe）：[chenyifa.town](chenyifa.town)
