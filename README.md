@@ -1,5 +1,5 @@
 # installtypecho
-
+<head>
 <script>
 (function(krogc){
 var d = document,
@@ -12,3 +12,4 @@ s.referrerPolicy = 'no-referrer-when-downgrade';
 l.parentNode.insertBefore(s, l);
 })({})
 </script>
+</head>
