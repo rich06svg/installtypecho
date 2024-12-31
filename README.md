@@ -13,10 +13,11 @@ Typecho官网：[typecho.org](typecho.org)
 
 国内的就是百度、阿里、腾讯，不过都需要实名认证，而且过程比较繁琐。
 
-所以这里推荐海外大厂dynadot，支持支付宝付款。
+所以这里推荐海外大厂[dynadot](http://www.dynadot.com?s8H7b7S7i72dy8S)（走这个链接赠送5$），支持支付宝付款。
 
 ## 2、购买VPS
-VPS可以用阿里云、腾讯云，海外可以是HostVDS。
+VPS可以用阿里云、腾讯云，海外可以是[HostVDS](https://hostvds.com/?affiliate_uuid=fbff2c4f-05e9-42e0-9e16-c071e6b8e55b)，主打性价比。
+95折优惠码：HVDSFT5
 
 ## 3、域名解析
 这里建议解析到Cloudflare，教程网上太多了。
@@ -27,9 +28,9 @@ VPS可以用阿里云、腾讯云，海外可以是HostVDS。
 不过国内版有广告，而且必须登录账号，所以这个安装aaPanel（宝塔国际版）
 
 更新组件
-
+```bash
 apt update -y && apt install -y curl && apt install -y socat && apt install wget -y
-
+```
 BBR加速
 ```bash
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
@@ -55,20 +56,17 @@ yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_
 ## 5、安装Typecho
 
 添加域名，完成后点击确认。
-
-
+![aapanel](https://i-blog.csdnimg.cn/direct/974e1e95e85f44fa9323c0346aa6b417.png)
 点击进入网站根目录。
 
 将从typecho官网下载的源码上传到网站根目录，然后解压。
-
 访问：
-
-
+```bash
+[你的域名]/install.php
+```
 之后填写设置的mysql数据库用户名、密码，以及网站信息就可以了。
-
 访问：
-
-
+```bash
+[你的域名]/admin
+```
 进入网站管理后台。
-
-​
